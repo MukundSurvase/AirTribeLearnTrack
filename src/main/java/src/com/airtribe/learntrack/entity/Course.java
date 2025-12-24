@@ -7,7 +7,6 @@ import src.com.airtribe.learntrack.util.Util;
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class Course {
 
     private final String courseId;
@@ -96,7 +95,4 @@ public class Course {
     public String toString(){
         return courseId+"\t║\t"+courseName+"\t║\t"+technology+"\t║\t"+durationInWeeks+"\t║\t"+courseFees+"\t║\t";
     }
-
-
-
 }
